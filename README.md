@@ -1,2 +1,49 @@
-# test
-test
+{
+  "id": "cosmere-rpg-community-dice-themes",
+  "title": "Cosmere RPG: Community Dice-So-Nice Themes",
+  "description": "Adds Cosmere RPG themes to Dice-So-Nice.",
+  "version": "1.1.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "authors": [
+    {
+      "name": "Doc-Sun",
+      "discord": "doc_sun",
+      "url": "https://github.com/Doc-Sun",
+      "flags": {}
+    },
+    {
+      "name": "damccull",
+      "discord": "damccull",
+      "url": "https://github.com/damccull",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "cosmere-rpg",
+        "type": "system",
+        "manifest": "https://raw.githubusercontent.com/the-metalworks/cosmere-rpg/refs/heads/release-1.0.0/src/system.json",
+        "compatibility": {
+          "verified": "1.0.0"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "type": "module",
+        "id": "dice-so-nice",
+        "compatibility": {}
+      }
+    ]
+  },
+  "esmodules": [
+    "cosmere-dice.js"
+  ],
+  "url": "https://github.com/damccull/cosmere-rpg-community-dice-themes",
+  "manifest": "https://raw.githubusercontent.com/damccull/cosmere-rpg-community-dice-themes/refs/heads/master/module.json",
+  "download": "https://github.com/damccull/cosmere-rpg-community-dice-themes/archive/v1.1.0.zip"
+}
